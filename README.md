@@ -29,3 +29,5 @@ Then i just let composer do its magic and run `composer update --with-all-depend
 If this fails i repeat this process with a few packages and slowly increment whist still running the above composer command.
 
 then i set the orginial version that has been installed back into the composer.json file by looking into the composer.lock file. To easily do this step run the python script found in this repository
+
+If you are doing Laravel Upgrades of some old projects. Check out my comprehensive tutorial on [Upgrading from Laravel 5 to 8](https://codenathan.com/upgrading-from-laravel-5-to-laravel-8)
